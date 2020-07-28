@@ -1,4 +1,57 @@
+body {
+  margin: 0px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .nav-container {
-  height: 79px;
+  height: 5.2em;
+  width: 100%;
+  background-color: #FBE3DC;
+}
+
+.logo-container {
+  height: 100%;
+  width: 24em;
+}
+
+.logo {
+  height: 100%;
+  width: 16em;
+  background-color: green;
+}
+
+nav {
+  height: 100%;
+  width: 45em;
+  background-color: red;
+}
+
+.nav-item {
+  height: 100%;
+  width: 5em;
+  background-color: blue;
 }
 /*# sourceMappingURL=index.css.map */

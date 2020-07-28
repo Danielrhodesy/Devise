@@ -5,9 +5,10 @@ class Nav extends Component {
   render() {
     return (
       <>
-        <div class="nav-container">
-            <div class="logo">
-
+        <div class="nav-container sb">
+            <div class="logo-container fe">
+              <div class="logo">
+              </div>
             </div>
             <nav>
               <div class="nav-item">  
