@@ -2,11 +2,16 @@ body {
     margin: 0px;
 }
 
+p {
+    margin: 0px;
+}
 
 //Colour Variables
 
 $color-main-nav: #FBE3DC;
 
+
+//Flex Classes
 
 .flex {
     display: flex;
@@ -22,33 +27,75 @@ $color-main-nav: #FBE3DC;
     justify-content: space-between;
 }
 
-.nav-container {
-    height: 5.2em;
-    width: 100%;
-    background-color: $color-main-nav;
+.sa {
+    display: flex;
+    justify-content: space-around;
 }
 
-.logo-container{
+.se {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ct {
+    display: flex;
+    align-items: center;
+}
+
+//Border Classes
+
+.bl {
+    border: 1px solid black;
+}
+
+//Nav Classes
+
+//Logo Container
+
+.nav-container {
+    height: 5em;
+    width: 100%;
+    background-color: $color-main-nav;
+    
+}
+
+.container{
     height: 100%;
-    width: 24em;
+    width: 90%;
 }
 
 .logo {
     height: 100%;
-    width: 16em;
-    background-color: green;
+    width: 10em;
+    background-color: #F3A994;
 }
 
 //NAV BAR
 
 nav {
     height: 100%;
-    width: 45em;
-    background-color: red;
+    width: 60%;
 }
 
 .nav-item {
-    height: 100%;
-    width: 5em;
-    background-color: blue;
+    height: 1em;
+    width: 3em;
+    font-size: 25px;
+    color: #7E726F;
+}
+
+.profile {
+    height: 2em;
+    width: 2em;
+    border-radius: 5em;
+    background-color: grey;
+    color: white;
+}
+
+.post-proj {
+    height: 52px;
+    width: 182px;
+    border-radius: 25px;
+    background-color: #F3A994;
+    color: white;
 }
