@@ -9,7 +9,7 @@ class Nav extends Component {
             <div class="container sb">
               <div class="logo">
               </div>
-              <nav class="se ct">
+            <nav class="sb ct">
               <div class="nav-item se ct">  
                 <p>About</p>
               </div>
