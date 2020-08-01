@@ -37,6 +37,8 @@ $color-main-nav: #FBE3DC;
     justify-content: space-evenly;
 }
 
+//Align Items
+
 .ct {
     display: flex;
     align-items: center;
@@ -53,7 +55,7 @@ $color-main-nav: #FBE3DC;
 //Logo Container
 
 .nav-container {
-    height: 5em;
+    height: 4.5em;
     width: 100%;
     background-color: $color-main-nav;
     
@@ -93,9 +95,20 @@ nav {
 }
 
 .post-proj {
-    height: 52px;
-    width: 182px;
+    height: 2em;
+    width: 7em;
     border-radius: 25px;
     background-color: #F3A994;
     color: white;
+}
+
+
+
+// ******* Find a Project ******* //
+
+
+.fp-container {
+    height: 10rem;
+    width: 10rem;
+    background-color: antiquewhite;
 }

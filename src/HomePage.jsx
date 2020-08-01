@@ -8,6 +8,7 @@ class HomePage extends Component {
     return (
       <>
         <Nav/>
+        <HomePage/>
       </>
     );
   }
