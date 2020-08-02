@@ -5,11 +5,8 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <section class="fp-container sa ct">
-            <article class="bl">
-                <h1>Find a Project</h1>
-                <div class="search"></div>
-                <div class="button">Search</div>   
+        <section class="ct-container sa ct">
+            <article class="bl">  
             </article>
         </section>
       </>
