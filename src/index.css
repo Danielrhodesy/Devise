@@ -106,8 +106,52 @@ nav {
 }
 
 .fp-container {
-  height: 10rem;
-  width: 10rem;
+  height: 43.4rem;
+  background-color: darkgray;
+}
+
+.fp-container article {
+  height: 15rem;
+  width: 30rem;
+  background-color: #C9B6B0;
+}
+
+.sl-container {
+  height: 20rem;
+  width: 100%;
+  background-color: #C9B6B0;
+}
+
+.sl-bio {
+  height: 100%;
+  width: 50%;
+}
+
+.sl-gallery {
+  height: 100%;
+  width: 50%;
+}
+
+.os-container {
+  height: 50rem;
+  width: 100%;
+  background-color: white;
+}
+
+.os-title-container {
+  height: 20%;
+  width: 100%;
+}
+
+.sp-container {
+  height: 40rem;
+  background-color: grey;
+  width: 100%;
+}
+
+.pf-container {
+  height: 50rem;
+  width: 100%;
   background-color: antiquewhite;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-class Findproject extends Component {
+class Contact extends Component {
   render() {
     return (
       <>
@@ -17,4 +17,4 @@ class Findproject extends Component {
   }
 }
 
-export default (Findproject)
+export default (Contact)

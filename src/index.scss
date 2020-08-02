@@ -9,6 +9,7 @@ p {
 //Colour Variables
 
 $color-main-nav: #FBE3DC;
+$color-spotlight: #C9B6B0;
 
 
 //Flex Classes
@@ -107,8 +108,78 @@ nav {
 // ******* Find a Project ******* //
 
 
+
 .fp-container {
-    height: 10rem;
-    width: 10rem;
-    background-color: antiquewhite;
+    height: 43.4rem;
+    background-color: darkgray;
 }
+
+.fp-container article {
+    height: 15rem;
+    width: 30rem;
+    background-color: $color-spotlight;
+}
+
+
+
+// ******* Spotlight ******* //
+
+//Add colour styling, fonts, gallery (images)
+
+.sl-container {
+    height: 20rem;
+    width: 100%;
+    background-color: $color-spotlight;
+}
+
+.sl-bio {
+    height: 100%;
+    width: 50%;
+}
+
+.sl-gallery {
+    height: 100%;
+    width: 50%;
+}
+
+
+
+// ******* Our Story ******* //
+
+//Need to align items so they are center
+
+.os-container {
+    height: 50rem;
+    width: 100%;
+    background-color: white;
+}
+
+.os-title-container {
+    height: 20%;
+    width: 100%;
+}
+
+
+
+// ******* Our Story ******* //
+
+//Still needs concept designs
+
+.sp-container {
+    height: 40rem;
+    background-color: grey;
+    width: 100%;
+}
+
+
+
+// ******* Portfolio ******* //
+
+
+.pf-container {
+    height: 50rem;
+    width: 100%;
+    background-color: antiquewhite
+}
+
+
