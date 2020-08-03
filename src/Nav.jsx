@@ -1,17 +1,25 @@
 import React, { Component } from "react";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import About from './components/About'
+import HomePage from "./HomePage"
 
 class Nav extends Component {
   render() {
     return (
       <>
-        <div class="nav-container flex sa">
+      <Router>
+          <div class="nav-container flex sa">
             <div class="container sb">
               <div class="logo">
               </div>
             <nav class="sb ct">
               <div class="nav-item se ct">  
-                <p>About</p>
+                <Link to="/About"><p>About</p></Link>
               </div>
               <div class="nav-item se ct">
                 <p>Filter</p>  
@@ -29,9 +37,9 @@ class Nav extends Component {
                 <p>Post Project</p>  
               </div>
             </nav>
-            </div>
-            
-        </div>
+            </div>   
+          </div>
+        </Router> 
       </>
     );
   }

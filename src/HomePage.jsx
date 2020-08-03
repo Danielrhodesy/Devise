@@ -1,7 +1,12 @@
 
   
 import React, { Component } from "react";
-import Nav from "./components/Nav"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Findproject from "./components/Findproject"
 import Spotlight from "./components/Spotlight"
 import Ourstory from "./components/Ourstory"
@@ -14,7 +19,6 @@ class HomePage extends Component {
   render() {
     return (
       <>
-        <Nav/>
         <Findproject/>
         <Spotlight/>
         <Ourstory/>

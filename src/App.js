@@ -1,12 +1,12 @@
 
 import React from 'react';
-import HomePage from './HomePage'
+import Main from './Main'
 
 
 function App() {
   return (
     <>
-      <HomePage/>
+      <Main/>
     </>
   );
 }
