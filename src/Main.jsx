@@ -18,7 +18,7 @@ class Main extends Component {
             <Nav/>
             <Switch>
                 <Route exact path="/" component={HomePage} />
-                <Route exact path='/About' component={About} />
+                <Route path='/About' component={About} />
             </Switch>
         </Router>
       </>
