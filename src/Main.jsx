@@ -19,6 +19,7 @@ class Main extends Component {
             <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route path='/About' component={About} />
+                <Route exact path="/Filter" component={Filter}/>
             </Switch>
         </Router>
       </>
