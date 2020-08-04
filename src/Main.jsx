@@ -8,7 +8,10 @@ import {
 import Nav from "./Nav"
 import HomePage from "./HomePage"
 import About from "./components/About"
-
+import Members from "./components/Members"
+import Profile from "./components/Profile"
+import Settings from "./components/Settings"
+import PostProj from "./components/PostProj"
 
 class Main extends Component {
   render() {
@@ -18,8 +21,11 @@ class Main extends Component {
             <Nav/>
             <Switch>
                 <Route exact path="/" component={HomePage} />
-                <Route path='/About' component={About} />
-                <Route exact path="/Filter" component={Filter}/>
+                <Route path="/About" component={About} />
+                <Route path="/Members" component={Members}/>
+                <Route path="/Profile" components={Profile}/>
+                <Route path="/Settings" components={Settings}/>
+                <Route path="/PostProj" components={PostProj}/>
             </Switch>
         </Router>
       </>

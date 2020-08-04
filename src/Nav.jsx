@@ -25,9 +25,9 @@ class Nav extends Component {
                   <p>About</p>
                 </div>
               </Link> 
-              <Link to="/Filter">
+              <Link to="/Members">
                 <div class="nav-item se ct">
-                  <p>Filter</p>  
+                  <p>Members</p>  
                 </div>
               </Link>
               <Link to="/Search">
@@ -45,7 +45,7 @@ class Nav extends Component {
                   <p>Settings</p>
                 </div>
               </Link>
-              <Link to="/Post">
+              <Link to="/PostProj">
                 <div class="nav-item post-proj se ct">
                   <p>Post Project</p>  
                 </div>
