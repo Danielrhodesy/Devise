@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 import Nav from "./Nav"
 import HomePage from "./HomePage"
@@ -23,9 +23,9 @@ class Main extends Component {
                 <Route exact path="/" component={HomePage} />
                 <Route path="/About" component={About} />
                 <Route path="/Members" component={Members}/>
-                <Route path="/Profile" components={Profile}/>
-                <Route path="/Settings" components={Settings}/>
-                <Route path="/PostProj" components={PostProj}/>
+                <Route path="/Profile" component={Profile}/>
+                <Route path="/Settings" component={Settings}/>
+                <Route path="/PostProj" component={PostProj}/>
             </Switch>
         </Router>
       </>

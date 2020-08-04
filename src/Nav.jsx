@@ -5,8 +5,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import About from './components/About'
-import HomePage from "./HomePage"
 
 class Nav extends Component {
   render() {
