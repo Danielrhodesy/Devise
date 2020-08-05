@@ -3,26 +3,34 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 import Nav from "./Nav"
 import HomePage from "./HomePage"
 import About from "./components/About"
-import {AuthProvider} from "jwt-auth-react";
-npm 
+import {AuthProvider} from "jwt-auth-react"; 
+import Members from "./components/Members"
+import Profile from "./components/Profile"
+import Settings from "./components/Settings"
+import PostProj from "./components/PostProj"
 
 class Main extends Component {
   render() {
     return (
       <>
+
         <AuthProvider>
             <Router>
-                <Nav/>
-                <Switch>
-                    <Route exact path="/" component={HomePage} />
-                    <Route path='/About' component={About} />
-                </Switch>
-            </Router>
+            <Nav/>
+            <Switch>
+                <Route exact path="/" component={HomePage} />
+                <Route path="/About" component={About} />
+                <Route path="/Members" component={Members}/>
+                <Route path="/Profile" component={Profile}/>
+                <Route path="/Settings" component={Settings}/>
+                <Route path="/PostProj" component={PostProj}/>
+            </Switch>
+        </Router>
         </AuthProvider>
       </>
     );

@@ -13,30 +13,45 @@ class Nav extends Component {
       <>
           <div class="nav-container flex sa">
             <div class="container sb">
-              <div class="logo">
-              </div>
+              <Link to="/">
+                <div class="logo">
+                </div>
+              </Link>
             <nav class="sb ct">
-              <div class="nav-item se ct">  
-                <Link to="/About"><p>About</p></Link>
-              </div>
-              <div class="nav-item se ct">
-                <p>Filter</p>  
-              </div>
-              <div class="nav-item se ct">  
-                <p>Search</p>
-              </div>
-              <div class="nav-item se ct profile"> 
+              <Link to="/About">
+                  <div class="nav-item se ct">  
+                  <p>About</p>
+                </div>
+              </Link> 
+              <Link to="/Members">
+                <div class="nav-item se ct">
+                  <p>Members</p>  
+                </div>
+              </Link>
+              <Link to="/Search">
+                <div class="nav-item se ct">  
+                  <p>Search</p>
+                </div>
+              </Link>
+              <Link to="/Profile">
+                <div class="nav-item se ct profile"> 
                 <p>P</p> 
-              </div>
-              <div class="nav-item se ct"> 
-                <p>setting</p>
-              </div>
-              <div class="nav-item post-proj se ct">
-                <p>Post Project</p>  
-              </div>
+                </div>
+              </Link>
+              <Link to="/Settings">
+                <div class="nav-item se ct"> 
+                  <p>Settings</p>
+                </div>
+              </Link>
+              <Link to="/PostProj">
+                <div class="nav-item post-proj se ct">
+                  <p>Post Project</p>  
+                </div>
+              </Link>
             </nav>
             </div>   
           </div>
+
       </>
     );
   }
