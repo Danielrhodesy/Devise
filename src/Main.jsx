@@ -8,6 +8,7 @@ import {
 import Nav from "./Nav"
 import HomePage from "./HomePage"
 import About from "./components/About"
+import {AuthProvider} from "jwt-auth-react"; 
 import Members from "./components/Members"
 import Profile from "./components/Profile"
 import Settings from "./components/Settings"
@@ -17,7 +18,9 @@ class Main extends Component {
   render() {
     return (
       <>
-        <Router>
+
+        <AuthProvider>
+            <Router>
             <Nav/>
             <Switch>
                 <Route exact path="/" component={HomePage} />
@@ -28,6 +31,7 @@ class Main extends Component {
                 <Route path="/PostProj" component={PostProj}/>
             </Switch>
         </Router>
+        </AuthProvider>
       </>
     );
   }

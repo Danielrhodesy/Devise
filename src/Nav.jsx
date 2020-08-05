@@ -6,11 +6,11 @@ import {
   Link
 } from "react-router-dom";
 
+
 class Nav extends Component {
   render() {
     return (
       <>
-     
           <div class="nav-container flex sa">
             <div class="container sb">
               <Link to="/">
@@ -51,7 +51,7 @@ class Nav extends Component {
             </nav>
             </div>   
           </div>
-         
+
       </>
     );
   }
