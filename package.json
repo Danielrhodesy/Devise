@@ -34,10 +34,12 @@
     "webpack-cli": "^3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "npx run-p client server",
+    "client": "webpack --watch",
+    "server": "nodemon server",
+    "start": "node server",
+    "postinstall": "webpack",
+    "test": "jest --watchAll"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,5 +55,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielrhodesy/Devise.git"
+  },
+  "author": "daniel rhodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielrhodesy/Devise/issues"
+  },
+  "homepage": "https://github.com/Danielrhodesy/Devise#readme"
 }
