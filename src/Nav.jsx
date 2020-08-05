@@ -5,14 +5,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import About from './components/About'
-import HomePage from "./HomePage"
+
 
 class Nav extends Component {
   render() {
     return (
       <>
-      <Router>
           <div class="nav-container flex sa">
             <div class="container sb">
               <div class="logo">
@@ -39,7 +37,6 @@ class Nav extends Component {
             </nav>
             </div>   
           </div>
-        </Router> 
       </>
     );
   }

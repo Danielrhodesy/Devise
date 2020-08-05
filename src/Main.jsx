@@ -8,19 +8,22 @@ import {
 import Nav from "./Nav"
 import HomePage from "./HomePage"
 import About from "./components/About"
-
+import {AuthProvider} from "jwt-auth-react";
+npm 
 
 class Main extends Component {
   render() {
     return (
       <>
-        <Router>
-            <Nav/>
-            <Switch>
-                <Route exact path="/" component={HomePage} />
-                <Route path='/About' component={About} />
-            </Switch>
-        </Router>
+        <AuthProvider>
+            <Router>
+                <Nav/>
+                <Switch>
+                    <Route exact path="/" component={HomePage} />
+                    <Route path='/About' component={About} />
+                </Switch>
+            </Router>
+        </AuthProvider>
       </>
     );
   }
