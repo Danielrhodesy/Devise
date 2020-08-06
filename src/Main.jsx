@@ -9,7 +9,7 @@ import Nav from "./Nav"
 import HomePage from "./HomePage"
 import About from "./components/About"
 import {AuthProvider} from "jwt-auth-react"; 
-import Members from "./components/Members"
+import Register from "./components/Register"
 import Profile from "./components/Profile"
 import Settings from "./components/Settings"
 import PostProj from "./components/PostProj"
@@ -25,7 +25,7 @@ class Main extends Component {
             <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route path="/About" component={About} />
-                <Route path="/Members" component={Members}/>
+                <Route path="/Register" component={Register}/>
                 <Route path="/Profile" component={Profile}/>
                 <Route path="/Settings" component={Settings}/>
                 <Route path="/PostProj" component={PostProj}/>

@@ -23,9 +23,9 @@ class Nav extends Component {
                   <p>About</p>
                 </div>
               </Link> 
-              <Link to="/Members">
+              <Link to="/Register">
                 <div class="nav-item se ct">
-                  <p>Members</p>  
+                  <p>Register</p>  
                 </div>
               </Link>
               <Link to="/Search">
