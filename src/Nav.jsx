@@ -28,11 +28,6 @@ class Nav extends Component {
                   <p>Register</p>  
                 </div>
               </Link>
-              <Link to="/Search">
-                <div class="nav-item se ct">  
-                  <p>Search</p>
-                </div>
-              </Link>
               <Link to="/Profile">
                 <div class="nav-item se ct profile"> 
                 <p>P</p> 

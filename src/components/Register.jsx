@@ -2,29 +2,29 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 class Register extends React.Component {
-    constructor(props) {
-      super(props)
+    // constructor(props) {
+    //   super(props)
   
-      this.state = {
-        username: '',
-        password: '',
-      }
+    //   this.state = {
+    //     username: '',
+    //     password: '',
+    //   }
   
-      this.handleChange = this.handleChange.bind(this)
-      this.handleSubmit = this.handleSubmit.bind(this)
-    }
+    //   this.handleChange = this.handleChange.bind(this)
+    //   this.handleSubmit = this.handleSubmit.bind(this)
+    // }
   
-    handleChange(event) {
-      this.setState({
-        [event.target.name]: event.target.value
-      })
-    }
+    // handleChange(event) {
+    //   this.setState({
+    //     [event.target.name]: event.target.value
+    //   })
+    // }
   
-    handleSubmit(event) {
-      event.preventDefault()
-      this.props.dispatch(register(this.state.username, this.state.password))
-        .then(this.setState({ username: '', password: '' }))
-    }
+    // handleSubmit(event) {
+    //   event.preventDefault()
+    //   this.props.dispatch(register(this.state.username, this.state.password))
+    //     .then(this.setState({ username: '', password: '' }))
+    // }
   
     render() {
       return (
@@ -42,8 +42,9 @@ class Register extends React.Component {
       )
     }
   }
-  function mapReduxStateToProps(reduxState) {
-    return {
-    }
-  }
-  export default connect(mapReduxStateToProps)(Register)
+  // function mapReduxStateToProps(reduxState) {
+  //   return {
+  //   }
+  // }
+  export default (Register)
+  // connect(mapReduxStateToProps) This goes in here^
